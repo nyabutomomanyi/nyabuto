@@ -1,9 +1,138 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T18:48:01.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="dSgaDtAuU_pcqj1UZb6E" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T13:02:20.878Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="N8c8AX-097wSQP2bkmSS" version="24.4.9" type="github">
   <diagram name="Page-1" id="KNhVFJh3Q4WkVzkrzIVe">
-    <mxGraphModel dx="1434" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="818" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-1" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Generating Monitoring Database&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3cc1e3;" vertex="1" parent="1">
+          <mxGeometry x="20" y="23" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e35e3c;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-4" value="&lt;font color=&quot;#ffffff&quot;&gt;Ensure All monitoring database inputs are updated. (Follow up with the relevant stakeholders responsible for the various inputs )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5e3ce3;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-5" target="Dyp5sG3L9hADMO-RFwf8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-5" value="&lt;font color=&quot;#ffffff&quot;&gt;Merges all shipments tables to come with a table with all shipments.(&lt;b&gt;Product export + Scan out Files&lt;/b&gt;).&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5e3ce3;" vertex="1" parent="1">
+          <mxGeometry x="30" y="330" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-7" target="Dyp5sG3L9hADMO-RFwf8-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-7" value="&lt;font color=&quot;#ffffff&quot;&gt;Remove all Reversals and and retain the most recent posting.(&lt;b&gt;Get unique serials based on the most recent posting &lt;/b&gt;)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5e3ce3;" vertex="1" parent="1">
+          <mxGeometry x="30" y="430" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-8" target="Dyp5sG3L9hADMO-RFwf8-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-8" value="&lt;font color=&quot;#ffffff&quot;&gt;Scan-out enriched Assigned.&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;(Assigned Stoves by Project )&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5e3ce3;" vertex="1" parent="1">
+          <mxGeometry x="850" y="360" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-12" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-9" target="Dyp5sG3L9hADMO-RFwf8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-16" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-9" target="Dyp5sG3L9hADMO-RFwf8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-9" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Is it the First Monitoring period ?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e35e3c;" vertex="1" parent="1">
+          <mxGeometry x="310" y="392.5" width="160" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-11" target="Dyp5sG3L9hADMO-RFwf8-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-11" value="&lt;font color=&quot;#ffffff&quot;&gt;Import the Previous submitted Database.(Monitoring database combined )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5e3ce3;" vertex="1" parent="1">
+          <mxGeometry x="550" y="430" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-15" target="Dyp5sG3L9hADMO-RFwf8-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-15" value="&lt;font color=&quot;#ffffff&quot;&gt;Scan-out enriched.&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;(&lt;b&gt;shipments + end user info&lt;/b&gt;)&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#5e3ce3;" vertex="1" parent="1">
+          <mxGeometry x="470" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-19" value="Adding End user info on scan-out" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-17" target="Dyp5sG3L9hADMO-RFwf8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-17" value="&lt;font color=&quot;#ffffff&quot;&gt;Aggregated Registrations database.&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;(&lt;b&gt;Select only registration that match the shipment Destination of stoves&lt;/b&gt;.)&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#5e3ce3;" vertex="1" parent="1">
+          <mxGeometry x="20" y="620" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-20" target="Dyp5sG3L9hADMO-RFwf8-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-20" value="&lt;font color=&quot;#ffffff&quot;&gt;Scan-out enriched to assign. (Monitoring database + Shipments )&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5e3ce3;" vertex="1" parent="1">
+          <mxGeometry x="690" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-22" target="Dyp5sG3L9hADMO-RFwf8-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-22" value="exclude serial in &lt;b&gt;monitoring database&lt;/b&gt;." style="rhombus;whiteSpace=wrap;html=1;fillColor=#e35e3c;" vertex="1" parent="1">
+          <mxGeometry x="490" y="717" width="120" height="110" as="geometry" />
+        </mxCell>
+        <UserObject label="Assign based on rules.&lt;div&gt;&lt;a href=&quot;https://burn.sharepoint.com/:x:/g/carbon/EYzP8ruS4blEhwo4aCTWFX0BevnoLPAtRgBIyAIkTDZapA?e=rCU9wl&quot;&gt;5th April 2024 Stove Assignment rules.xlsx&lt;/a&gt;&lt;br&gt;&lt;/div&gt;" id="Dyp5sG3L9hADMO-RFwf8-31">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;fillColor=#e35e3c;" vertex="1" parent="1">
+            <mxGeometry x="720" y="200" width="150" height="130" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-33" value="creditable" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=-0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-31" target="Dyp5sG3L9hADMO-RFwf8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-34" value="Quarantine stoves" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="670" y="70" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-35" value="Not creditable" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.473;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-31" target="Dyp5sG3L9hADMO-RFwf8-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-42" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-45" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-36" target="Dyp5sG3L9hADMO-RFwf8-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-36" value="is the Stove in&amp;nbsp;&lt;div&gt;FG-GIT or FGI ?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e35e3c;" vertex="1" parent="1">
+          <mxGeometry x="895" y="470" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-37" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;Note&lt;/b&gt;: Only exclude If missing registration.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-43" target="Dyp5sG3L9hADMO-RFwf8-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-43" value="Assignment_combined" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3ce35e;" vertex="1" parent="1">
+          <mxGeometry x="920" y="650" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-47" target="Dyp5sG3L9hADMO-RFwf8-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-47" value="Select Project POA." style="rhombus;whiteSpace=wrap;html=1;fillColor=#e35e3c;" vertex="1" parent="1">
+          <mxGeometry x="780" y="690" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-50" value="Project specific Monitoring database." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3ce35e;" vertex="1" parent="1">
+          <mxGeometry x="890" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-52" value="&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#e35e3c;" vertex="1" parent="1">
+          <mxGeometry x="70" y="760" width="380" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-55" value="&lt;b&gt;Checks Done&lt;/b&gt;: (before adding Reg details to Scan-out enriched)&lt;div&gt;1. unique phone&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. Valid Phone number.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. registration match shipment destination.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;4.Distributor is carbon eligible.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;5.Phone number has not been submitted in any Monitoring.&lt;/div&gt;&lt;div&gt;6. If phone / Serial is duplicated, Pick the first unique record.&amp;nbsp;&lt;/div&gt;&lt;div&gt;7. Date in Project &amp;gt;= 2019-07-01.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;8. Valid Customer name.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;9. Ship-date is not Blank.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;10. registered&amp;nbsp; after shipping.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;11. Valid county (is not blank )&amp;nbsp; &amp;nbsp; &amp;nbsp; .&lt;/div&gt;&lt;div&gt;12. The serial is not to B2B distributors/ Distributor with carbon projects (i.e D-light stoves )&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;13. Valid Product. (&lt;b&gt;Jikokoa classic&amp;nbsp;&lt;/b&gt;, ,&lt;b&gt;MMJ&amp;nbsp;&amp;nbsp;Kuniokoa&amp;nbsp;&lt;/b&gt;,&lt;b&gt;Jikooa xtra&lt;/b&gt;&amp;nbsp;)&lt;/div&gt;&lt;div&gt;Note: For Jikokoa xtra- only registered before 100% B2C migration date by market.&lt;/div&gt;&lt;div&gt;14. Not a WBT stove.&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="790" width="350" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.221;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-2" target="Dyp5sG3L9hADMO-RFwf8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.327;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dyp5sG3L9hADMO-RFwf8-4" target="Dyp5sG3L9hADMO-RFwf8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyp5sG3L9hADMO-RFwf8-59" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="1029" y="8" width="133.8" height="49" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
